@@ -1,0 +1,57 @@
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+}
+.fa-thumbs-up{
+    cursor: context-menu;
+}
+.fa-thumbs-down{
+    cursor: context-menu;
+}
+.caption{
+    margin-top: 60px;
+    font-family: Jura;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.divide{
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.row {
+    margin-bottom: 20px;
+}
+.books-container{
+    padding-bottom: 100px;
+}
+.book-cover{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.one-book{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.cover-container {
+    text-align: center;
+}
+.one-book p{
+    font-family: Jura;
+    color:#000000;
+}
+.one-book p.author{
+     font-size: 20px;
+}
+.one-book p.story-name{
+    font-size: 15px;
+}
+.mark{
+    color: #000000;
+    background-color: inherit;
+    font-family: Jura;
+}
+.mark i{
+    font-style: normal;
+}

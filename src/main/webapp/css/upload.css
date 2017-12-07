@@ -1,0 +1,150 @@
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+}
+.load-form ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.load-form li {
+    float: left;
+}
+hr{
+    width: 80%;
+    margin-bottom: 50px;
+}
+.load-form{
+    margin-top: 50px;
+    margin-left: 170px;
+}
+#cover{
+    width: 300px;
+    height: 450px;
+}
+.book-cover{
+    width: 300px;
+    height: 450px;
+}
+.inputWrapper {
+    height: 32px;
+    width: inherit;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    font-family: Jura;
+    text-align: center;
+    padding-top: 5px;
+    background-color: #222222;
+    color: #ffffff;
+}
+#load-file {
+    cursor: pointer;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    right: 0;
+    z-index: 99;
+    /*This makes the button huge. If you want a bigger button, increase the font size*/
+    font-size:50px;
+    /*Opacity settings for all browsers*/
+    opacity: 0;
+}
+#submit{
+    width: 500px;
+    height: 32px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border: 1px solid;
+    background-color: #222222;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 4px;
+    cursor  : pointer;
+}
+.information{
+    font-family: Jura;
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 600px;
+}
+.information input{
+    margin-bottom: 8px;
+}
+.line{
+    background: rgba(255, 255, 255, 0.44);
+    border: 1px solid #A4A4A4;
+    padding: 4px 8px 4px 4px;
+    width: 500px;
+    height:25px;
+}
+
+.line:hover {
+    box-shadow: inset 0px 1px 2px #A4A4A4;
+}
+.line:focus {
+    box-shadow: inset 0px 1px 2px #A4A4A4;
+}
+.multi-line{
+    width: 500px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.44);
+    border: 1px solid #A4A4A4;
+    padding: 4px 8px 4px 4px;
+    resize: none;
+    margin-bottom: 10px;
+}
+.multi-line:hover {
+    box-shadow: inset 0px 1px 2px #A4A4A4;
+}
+.multi-line:focus {
+    box-shadow: inset 0px 1px 2px #A4A4A4;
+}
+.add-remove{
+    float: right;
+    margin-right: 66px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 1219px) {
+    .book-cover{
+        margin-left: 150px;
+        margin-bottom: 50px;
+    }
+    .information{
+        font-family: Jura;
+        margin-top: 30px;
+        margin-left: 80px;
+        width: 500px;
+    }
+    .line{
+        width: 450px;
+    }
+    .multi-line{
+        width: 450px;
+    }
+    .add-remove{
+        margin-right: 20px;
+    }
+    #submit{
+        width: 450px;
+    }
+}
+@media (max-width: 991px) {
+    .information{
+        font-family: Jura;
+        margin-top: 30px;
+        margin-left: 80px;
+        width: 450px;
+    }
+    .line{
+        width: 400px;
+    }
+    .multi-line{
+        width: 400px;
+    }
+    .add-remove{
+        margin-right: 20px;
+    }
+}
